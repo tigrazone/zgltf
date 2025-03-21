@@ -296,7 +296,7 @@ pub const Material = struct {
     transmission_texture: ?TextureInfo = null,
     /// The thickness of the volume beneath the surface.
     /// Note: from khr_materials_volume extension.
-    thickness_factor: f32 = 0.0,
+    thickness_factor: f32 = 0.1,
     /// A texture that defines the thickness, stored in the G channel.
     /// Note: from khr_materials_volume extension.
     thickness_texture: ?TextureInfo = null,
